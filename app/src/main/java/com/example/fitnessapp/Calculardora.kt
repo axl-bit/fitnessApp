@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 
 class Calculardora : Fragment() {
 
@@ -24,7 +25,6 @@ class Calculardora : Fragment() {
 
         inputPeso = view.findViewById(R.id.inputPeso)
         inputAltura = view.findViewById(R.id.inputAltura)
-        resultText = view.findViewById(R.id.textViewResult)
 
         val calculateButton = view.findViewById<Button>(R.id.Calcular)
         calculateButton.setOnClickListener {
@@ -42,7 +42,8 @@ class Calculardora : Fragment() {
             val bmi = peso / (altura * altura)
             displayResult(bmi)
         } else {
-            resultText.text = "Ingrese valores válidos"
+            //resultText.text = "Ingrese valores válidos"
+            Toast.makeText(context, "Ingrese los datos por favor", Toast.LENGTH_SHORT).show()
         }
     }
 
