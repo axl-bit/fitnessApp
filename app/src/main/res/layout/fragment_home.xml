@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:gravity="center"
-        android:text="Tu compañero de salud y bienestar. Con NutriPeso, descubre el camino hacia un peso y una vida más saludables. Calcula tu IMC y recibe recomendaciones personalizadas para alcanzar tus metas. ¡Comencemos juntos tu viaje hacia un cuerpo y una mente más saludables!"
+        android:text="Tu compañero de salud y bienestar. Con NutriFood, descubre el camino hacia un peso y una vida más saludables. Calcula tu IMC y recibe recomendaciones personalizadas para alcanzar tus metas. ¡Comencemos juntos tu viaje hacia un cuerpo y una mente más saludables!"
         android:textColor="@color/color1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
