@@ -14,7 +14,6 @@ class Calculardora : Fragment() {
 
     private lateinit var inputPeso: EditText
     private lateinit var inputAltura: EditText
-    private lateinit var resultText: TextView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
